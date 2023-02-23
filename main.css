@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Shadows Into Light Two', cursive;
+}
+
+body{
+    background-color: rgba(71, 87, 201, 0.358);
+    padding-top: 80px;
+}
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    height: 60px;
+}
+
+header h1 {
+    margin-left: 30px;
+    border-bottom: 1px solid black;
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+form {
+    display: flex;
+    max-width: 960px;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 56px;
+}
+
+form input {
+    font-size: 24px;
+    background-color: white;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 8px;
+    width: 400px;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: rgb(71, 86, 201);;
+    color: white;
+    font-size: 24px;
+    font-weight: lighter;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 5px;
+    border-bottom: 2px solid black;
+}
+
+table{
+    width: 100%;
+    padding-top: 30px;
+}
+
+table th {
+    border-bottom: 1px solid black;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+table td {
+    padding: 16px 0;
+    text-align: center;
+    font-size: 24px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
